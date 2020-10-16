@@ -1,0 +1,8 @@
+
+/*EvaluationKIT START*/var evalkit_jshosted = document.createElement('script');evalkit_jshosted.setAttribute('type', 'text/javascript');evalkit_jshosted.setAttribute('src', 'https://cwu.evaluationkit.com/CanvasScripts/cwu.js?v=15');document.getElementsByTagName('head')[0].appendChild(evalkit_jshosted);/*EvaluationKIT END*/
+
+window.ALLY_CFG = {
+    'baseUrl': 'https://prod.ally.ac',
+    'clientId': 2022
+};
+$.getScript(ALLY_CFG.baseUrl + '/integration/canvas/ally.js');
